@@ -1,0 +1,9 @@
+body{
+  background-color: #223422;
+  text-align: center;
+}
+#clock{
+  position: absolute;
+  font-size: 10em; 
+
+}
