@@ -4,6 +4,11 @@ body{
 }
 #clock{
   position: absolute;
-  font-size: 12em; 
+  font-size: 3em;
+  top: 20%;
+  left: 40%;
+  font-family: monospace;
+
+  padding: 10%
 
 }
