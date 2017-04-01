@@ -8,8 +8,7 @@ function pageLoaded() {
 
   document.getElementById("clock").onmousemove = changeTextColor;
   document.getElementById("clock").onmouseleave = function() {//resets to bgcolor of reset of the document
-    console.log(string);
-    document.getElementById("clock").style.backgroundColor =  string;//DOES NOT WORK
+    document.getElementById("clock").style.backgroundColor =  "";
   };
 
 }
