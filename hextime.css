@@ -1,14 +1,16 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
 body{
   background-color: #223422;
-  text-align: center;
+  display: flex;
+  overflow: hidden;
 }
 #clock{
-  position: absolute;
-  font-size: 3em;
-  top: 20%;
-  left: 40%;
-  font-family: monospace;
-
-  padding: 10%
-
+  font-size: 4em;
+  margin: auto;
+  border-bottom-style: ridge;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
 }
